@@ -65,6 +65,6 @@ jobs:
           app-name: 'cloudresumepy'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C452B6B2C05D4C4BABB31CC5858AC986 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9B37D8B95E8147AD8927C9E691173640 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
