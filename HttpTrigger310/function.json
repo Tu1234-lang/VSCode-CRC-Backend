@@ -23,6 +23,13 @@
       "tableName": "VisitorsCount",
       "partitionKey": "message",
       "connection": "CosmosDbConnectionString"
+    },
+    {
+      "name": "messageIn",
+      "type": "table",
+      "tableName": "VisitorsCount",
+      "connection": "CosmosDbConnectionString",
+      "direction": "in"
     }
   ]
 }
